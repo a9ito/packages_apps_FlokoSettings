@@ -74,8 +74,6 @@ public class UserInterface extends SettingsPreferenceFragment {
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
-        Settings.System.putIntForUser(resolver,
-                Settings.System.NAVBAR_STYLE, 0, UserHandle.USER_CURRENT);
         SmartPixels.reset(mContext);
     }
 
