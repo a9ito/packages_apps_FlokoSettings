@@ -64,6 +64,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private static final String KEY_SHOW_ROAMING = "roaming_indicator_icon";
     private static final String KEY_SHOW_FOURG = "show_fourg_icon";
     private static final String KEY_SHOW_DATA_DISABLED = "data_disabled_icon";
+    private static final String KEY_USE_OLD_MOBILETYPE = "use_old_mobiletype";
 
     private LineageSystemSettingListPreference mStatusBarClock;
     private SystemSettingSeekBarPreference mVolteIconStyle;
@@ -72,6 +73,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private SwitchPreference mShowRoaming;
     private SwitchPreference mShowFourg;
     private SwitchPreference mDataDisabled;
+    private SwitchPreference mOldMobileType;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -107,6 +109,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
         mShowRoaming = (SwitchPreference) findPreference(KEY_SHOW_ROAMING);
         mShowFourg = (SwitchPreference) findPreference(KEY_SHOW_FOURG);
         mDataDisabled = (SwitchPreference) findPreference(KEY_SHOW_DATA_DISABLED);
+        mOldMobileType = (SwitchPreference) findPreference(KEY_USE_OLD_MOBILETYPE);
 
         if (!TelephonyUtils.isVoiceCapable(getActivity())) {
             prefScreen.removePreference(mVolteIconStyle);
@@ -115,6 +118,14 @@ public class StatusBar extends SettingsPreferenceFragment implements
             prefScreen.removePreference(mShowRoaming);
             prefScreen.removePreference(mShowFourg);
             prefScreen.removePreference(mDataDisabled);
+            prefScreen.removePreference(mOldMobileType);
+        } else {
+            boolean mConfigUseOldMobileType = mContext.getResources().getBoolean(
+                    com.android.internal.R.bool.config_useOldMobileIcons);
+            boolean showing = Settings.System.getIntForUser(resolver,
+                    Settings.System.USE_OLD_MOBILETYPE,
+                    mConfigUseOldMobileType ? 1 : 0, UserHandle.USER_CURRENT) != 0;
+            mOldMobileType.setChecked(showing);
         }
     }
 
@@ -125,6 +136,9 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
+        boolean mConfigUseOldMobileType = mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_useOldMobileIcons);
+
         LineageSettings.System.putIntForUser(resolver,
                 LineageSettings.System.DOUBLE_TAP_SLEEP_GESTURE, 1, UserHandle.USER_CURRENT);
         LineageSettings.System.putIntForUser(resolver,
@@ -153,6 +167,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_BATTERY_TEXT_CHARGING, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.USE_OLD_MOBILETYPE, mConfigUseOldMobileType ? 1 : 0, UserHandle.USER_CURRENT);
 
         BatteryBar.reset(mContext);
         Clock.reset(mContext);
@@ -181,6 +197,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
                         keys.add(KEY_SHOW_ROAMING);
                         keys.add(KEY_SHOW_FOURG);
                         keys.add(KEY_SHOW_DATA_DISABLED);
+                        keys.add(KEY_USE_OLD_MOBILETYPE);
                     }
 
                     return keys;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2020 crDroid Android Project
+     Copyright (C) 2016-2021 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -91,17 +91,17 @@
     <string name="immersive_recents_statusbar">僅狀態列</string>
     <string name="immersive_recents_navbar">僅導覽列</string>
     <!-- Recents categories -->
-    <string name="recents_default_category">原生 (AOSP)</string>
+    <string name="recents_default_category">AOSP</string>
     <string name="recents_omni_category">OmniSwitch</string>
     <!-- AOSP Recents -->
-    <string name="aosp_first_time_title">原生 (AOSP) 樣式的「最近使用」畫面</string>
-    <string name="aosp_first_time_message">如果啟用延伸桌面，「全螢幕最近使用」的設定將會被覆蓋。</string>
+    <string name="aosp_first_time_title">AOSP 最近使用</string>
+    <string name="aosp_first_time_message">如果啟用延伸桌面，全螢幕最近使用的設定將會被覆蓋。</string>
     <!-- Hide Apps from Recents -->
-    <string name="hide_apps_from_recents_title">從「最近使用」畫面中隱藏應用程式</string>
-    <string name="hide_apps_from_recents_summary">隱藏應用程式以使其不顯示在「最近使用」畫面中</string>
+    <string name="hide_apps_from_recents_title">從最近使用畫面中隱藏應用程式</string>
+    <string name="hide_apps_from_recents_summary">隱藏應用程式以使其不顯示在最近使用畫面中</string>
     <string name="hide_from_recents_add_app">將應用程式增加到隱藏列表</string>
     <string name="hide_from_recents_picker_title">自動隱藏這些應用程式</string>
-    <string name="hide_from_recents_picker_summary">下次打開這些應用程式時，它們會自動從「最近使用」畫面中隱藏</string>
+    <string name="hide_from_recents_picker_summary">下次打開這些應用程式時，它們會自動從最近使用畫面中隱藏</string>
     <!-- OmniSwitch Recents -->
     <string name="recents_use_omniswitch_title">用於最近使用</string>
     <string name="recents_use_omniswitch_summary">使用 OmniSwitch 替代預設最近使用面板</string>
@@ -128,7 +128,7 @@
     <string name="shortcut_action_select_action_longpress">選擇長按動作：</string>
     <string name="shortcut_action_select_action">選擇動作：</string>
     <string name="shortcut_action_select_action_newaction">選擇新動作：</string>
-    <string name="shortcut_action_reset">重設</string>
+    <string name="shortcut_action_reset">重置</string>
     <string name="shortcut_action_add">新增</string>
     <string name="shortcut_action_reset_message">重設所有項目為預設值？</string>
     <string name="shortcut_action_max">已達到最大捷徑允許數目</string>
@@ -155,17 +155,17 @@
     <string name="shortcuts_icon_picker_andy">Andy</string>
     <string name="shortcuts_icon_picker_battery">電池</string>
     <string name="shortcuts_icon_picker_browser">瀏覽器</string>
-    <string name="shortcuts_icon_picker_calendar">月曆</string>
+    <string name="shortcuts_icon_picker_calendar">日曆</string>
     <string name="shortcuts_icon_picker_camera">相機</string>
     <string name="shortcuts_icon_picker_cloud">雲端</string>
     <string name="shortcuts_icon_picker_contact">連絡人</string>
     <string name="shortcuts_icon_picker_directdial">直接撥號</string>
-    <string name="shortcuts_icon_picker_directmessage">直接傳訊</string>
-    <string name="shortcuts_icon_picker_drive">硬碟</string>
+    <string name="shortcuts_icon_picker_directmessage">直接傳送訊息</string>
+    <string name="shortcuts_icon_picker_drive">雲端</string>
     <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
     <string name="shortcuts_icon_picker_email">電子郵件</string>
     <string name="shortcuts_icon_picker_email2">備用電子郵件</string>
-    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_evernote">印象筆記</string>
     <string name="shortcuts_icon_picker_facebook">Facebook</string>
     <string name="shortcuts_icon_picker_favorite">我的最愛</string>
     <string name="shortcuts_icon_picker_file_browser">檔案瀏覽器</string>
@@ -176,7 +176,7 @@
     <string name="shortcuts_icon_picker_google_small">Google</string>
     <string name="shortcuts_icon_picker_gplus">Google+</string>
     <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
-    <string name="shortcuts_icon_picker_help">說明</string>
+    <string name="shortcuts_icon_picker_help">幫助</string>
     <string name="shortcuts_icon_picker_joystick">搖桿</string>
     <string name="shortcuts_icon_picker_key">金鑰／帳戶</string>
     <string name="shortcuts_icon_picker_laptop">筆記型電腦</string>
@@ -188,20 +188,20 @@
     <string name="shortcuts_icon_picker_music">音樂</string>
     <string name="shortcuts_icon_picker_nav">導覽列</string>
     <string name="shortcuts_icon_picker_phone">電話</string>
-    <string name="shortcuts_icon_picker_package">組件</string>
+    <string name="shortcuts_icon_picker_package">套件</string>
     <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
     <string name="shortcuts_icon_picker_play">播放</string>
-    <string name="shortcuts_icon_picker_pocket">口袋</string>
+    <string name="shortcuts_icon_picker_pocket">Pocket</string>
     <string name="shortcuts_icon_picker_quicksettings">快速設定</string>
     <string name="shortcuts_icon_picker_rss">RSS 訂閱</string>
     <string name="shortcuts_icon_picker_sdcard">SD 卡</string>
     <string name="shortcuts_icon_picker_search">搜尋</string>
     <string name="shortcuts_icon_picker_sms">簡訊</string>
     <string name="shortcuts_icon_picker_tasks">工作</string>
-    <string name="shortcuts_icon_picker_terminal">終端機</string>
-    <string name="shortcuts_icon_picker_transit">交通運輸</string>
+    <string name="shortcuts_icon_picker_terminal">終端</string>
+    <string name="shortcuts_icon_picker_transit">過渡</string>
     <string name="shortcuts_icon_picker_tv">電視</string>
-    <string name="shortcuts_icon_picker_twitter">推特</string>
+    <string name="shortcuts_icon_picker_twitter">Twitter</string>
     <string name="shortcuts_icon_picker_unlock">解鎖</string>
     <string name="airplay">AirPlay</string>
     <string name="android">Android</string>
@@ -217,21 +217,21 @@
     <string name="camera">相機</string>
     <string name="chrome">Chrome</string>
     <string name="clock">時鐘</string>
-    <string name="cnn">CNN</string>
+    <string name="cnn">Cnn</string>
     <string name="deezer2">Deezer 2</string>
     <string name="deezer">Deezer</string>
     <string name="dolphin2">海豚</string>
     <string name="downloads">下載</string>
-    <string name="dropbox">Dropbox</string>
-    <string name="ebay">eBay</string>
+    <string name="dropbox">投遞箱</string>
+    <string name="ebay">Ebay</string>
     <string name="email">電子郵件</string>
-    <string name="evernote">Evernote</string>
+    <string name="evernote">印象筆記</string>
     <string name="explorer">檔案總管</string>
     <string name="falcon">Falcon</string>
     <string name="fb">Facebook</string>
     <string name="flipboard">Flipboard</string>
     <string name="foursquare">Foursquare</string>
-    <string name="firefox">火狐 (Firefox)</string>
+    <string name="firefox">Firefox</string>
     <string name="googlebuzz">Google buzz</string>
     <string name="googledocs">Google 文件</string>
     <string name="googlewallet">Google 錢包</string>
@@ -244,14 +244,14 @@
     <string name="totalcommander">Total Commander</string>
     <string name="weather">天氣</string>
     <string name="golocker">Go locker</string>
-    <string name="googlecurrents">Google 潮流同步</string>
+    <string name="googlecurrents">Google currents</string>
     <string name="googletalk">Google Talk</string>
-    <string name="gosms">Go 短信</string>
+    <string name="gosms">Go sms</string>
     <string name="meebo">Meebo</string>
     <string name="maps2">地圖 2</string>
     <string name="memorycleaner">記憶體清理工具</string>
     <string name="navigation">導覽列</string>
-    <string name="pulse">Pluse</string>
+    <string name="pulse">脈衝</string>
     <string name="shazam">Shazam</string>
     <string name="swiftkey">SwiftKey</string>
     <string name="tmobile">T-Mobile</string>
@@ -261,24 +261,24 @@
     <string name="docs">文件</string>
     <string name="googledrive">Google 雲端硬碟</string>
     <string name="googleearth">Google 地球</string>
-    <string name="googlehangouts">Google hangouts</string>
+    <string name="googlehangouts">Google Hangouts</string>
     <string name="googlekeep">Google Keep</string>
-    <string name="googleplay">Google Play</string>
+    <string name="googleplay">Play商店</string>
     <string name="googletranslate">Google 翻譯</string>
     <string name="google">Google</string>
     <string name="googleplus">Google+</string>
-    <string name="imdb">IMDb</string>
+    <string name="imdb">imdb</string>
     <string name="instagram">Instagram</string>
     <string name="lastfm">Last.fm</string>
     <string name="maps">地圖</string>
     <string name="messages">訊息</string>
     <string name="music">音樂</string>
-    <string name="mxplayer">MX Player</string>
+    <string name="mxplayer">Mxplayer</string>
     <string name="notepad">直接傳送訊息</string>
     <string name="opera">Opera</string>
     <string name="paint">繪畫</string>
     <string name="paypal">Paypal</string>
-    <string name="phone">電話</string>
+    <string name="phone">手機</string>
     <string name="picasa">Picasa</string>
     <string name="pictures2">圖片 2</string>
     <string name="player_pro">Player Pro</string>
@@ -290,15 +290,15 @@
     <string name="spotifiy">Spotify</string>
     <string name="tapatalk">Tapatalk</string>
     <string name="tunein">TuneIn</string>
-    <string name="twitter">推特</string>
+    <string name="twitter">Twitter</string>
     <string name="viber">Viber</string>
     <string name="videocamera">攝影機</string>
     <string name="whatsapp">WhatsApp</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="xda">XDA</string>
+    <string name="wifi">無線網路</string>
+    <string name="xda">Xda</string>
     <string name="yahoo">雅虎</string>
     <string name="youtube">Youtube</string>
-    <string name="zedge">ZEDGE</string>
+    <string name="zedge">Zedge</string>
     <string name="shortcut_action_none">無</string>
     <string name="shortcut_action_app">自訂應用程式</string>
     <string name="shortcut_action_home">主畫面</string>
@@ -311,11 +311,11 @@
     <string name="shortcut_action_search">應用程式内搜尋</string>
     <string name="shortcut_action_ring_vib">鈴聲／震動</string>
     <string name="shortcut_action_ring_silent">鈴聲／靜音</string>
-    <string name="shortcut_action_ring_vib_silent">鈴聲／震動／靜音</string>
+    <string name="shortcut_action_ring_vib_silent">響鈴/震動/靜音</string>
     <string name="shortcut_action_camera">相機</string>
-    <string name="shortcut_action_media_next">音樂－下一首</string>
-    <string name="shortcut_action_media_play_pause">音樂－播放／暫停</string>
-    <string name="shortcut_action_media_previous">音樂－上一首</string>
+    <string name="shortcut_action_media_next">音樂 - 下一首</string>
+    <string name="shortcut_action_media_play_pause">音樂 - 播放 / 暫停</string>
+    <string name="shortcut_action_media_previous">音樂 - 上一首</string>
     <string name="shortcut_action_wake_device">喚醒裝置</string>
     <string name="shortcut_picker_choose_longpress_action">選擇長按動作：</string>
     <string name="shortcut_picker_choose_new_action">選擇新動作：</string>
@@ -441,21 +441,21 @@
     <string name="status_bar_crdroid_logo_position">圖示位置</string>
     <string name="status_bar_crdroid_logo_position_summary">選擇在左邊或右邊顯示圖示</string>
     <string name="status_bar_crdroid_logo_style">圖示樣式</string>
-    <string name="status_bar_logo_position_right">右側</string>
-    <string name="status_bar_logo_position_left">左側</string>
+    <string name="status_bar_logo_position_right">右邊</string>
+    <string name="status_bar_logo_position_left">左</string>
     <string name="status_bar_logo_style_crdroid">crDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_apple">蘋果</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
     <string name="status_bar_logo_style_ios">iOS</string>
     <string name="status_bar_logo_style_emoticon">表情符號</string>
-    <string name="status_bar_logo_style_emoticon_cool">「潮」表情</string>
-    <string name="status_bar_logo_style_emoticon_dead">「死亡」表情</string>
-    <string name="status_bar_logo_style_emoticon_devil">「魔鬼」表情</string>
-    <string name="status_bar_logo_style_emoticon_happy">「開心」表情</string>
-    <string name="status_bar_logo_style_emoticon_neutral">「中性」表情</string>
-    <string name="status_bar_logo_style_emoticon_poop">「大便」表情</string>
-    <string name="status_bar_logo_style_emoticon_sad">「悲傷」表情</string>
-    <string name="status_bar_logo_style_emoticon_tongue">「吐舌」表情</string>
+    <string name="status_bar_logo_style_emoticon_cool">表情符號 酷</string>
+    <string name="status_bar_logo_style_emoticon_dead">表情符號 死</string>
+    <string name="status_bar_logo_style_emoticon_devil">表情符號 惡魔</string>
+    <string name="status_bar_logo_style_emoticon_happy">表情符號 快樂</string>
+    <string name="status_bar_logo_style_emoticon_neutral">表情符號 中性</string>
+    <string name="status_bar_logo_style_emoticon_poop">表情符號 大便</string>
+    <string name="status_bar_logo_style_emoticon_sad">表情符號 悲傷</string>
+    <string name="status_bar_logo_style_emoticon_tongue">表情符號 吐舌頭</string>
     <string name="status_bar_logo_style_blackberry">黑莓</string>
     <string name="status_bar_logo_style_cake">蛋糕</string>
     <string name="status_bar_logo_style_blogger">部落客</string>
@@ -595,10 +595,10 @@
     <string name="vertical_down_swipe_title">垂直向下滑動</string>
     <string name="up_swipe_title">向上滑動</string>
     <string name="down_swipe_title">向下滑動</string>
-    <string name="long_swipe_reset">重設</string>
+    <string name="long_swipe_reset">重置</string>
     <string name="fling_advanced">進階選項</string>
     <string name="fling_long_swipe_title">長距滑動的距離下限</string>
-    <string name="fling_long_swipe_summary">基於「快速滑動」介面寬度或高度的百分比微調長距滑動的距離下限</string>
+    <string name="fling_long_swipe_summary">基於快速滑動介面寬度或高度的百分比微調長距滑動的距離下限</string>
     <string name="fling_trails_enable_title">啟用手勢軌跡</string>
     <string name="fling_trails_enable_summary">滑動時顯示軌跡</string>
     <string name="fling_trails_color_title">軌跡顏色</string>
@@ -607,7 +607,7 @@
     <string name="fling_show_logo_title">顯示快速滑動圖示</string>
     <string name="fling_animate_logo_title">圖示動畫</string>
     <string name="fling_animate_logo_summary">觸碰時顯示圖示動畫</string>
-    <string name="fling_logo_color">圖示顏色</string>
+    <string name="fling_logo_color">標誌顏色</string>
     <string name="fling_logo_custom_logo_pick_title">自訂圖示</string>
     <string name="fling_logo_custom_logo_image_pick_title">自訂圖示圖片</string>
     <string name="fling_logo_custom_logo_reset_title">重設圖示圖片</string>
@@ -635,7 +635,7 @@
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">關於 Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse 是一種優秀的音訊圖形等化器，在裝置播放音樂時運作。</string>
-    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings">脈衝</string>
     <string name="pulse_settings_summary">導覽列與鎖定畫面的音訊圖形等化器</string>
     <string name="show_navbar_pulse_title">導覽列 Pulse</string>
     <string name="show_navbar_pulse_summary">在導覽列上的音訊圖形等化器</string>
@@ -886,9 +886,9 @@
     <string name="pie_status_both">同時顯示</string>
     <string name="pie_gravity_title">Pie 的位置</string>
     <string name="pie_gravity_summary">選擇 Pie 的位置</string>
-    <string name="pie_gravity_bottom">底部</string>
-    <string name="pie_gravity_right">右側</string>
-    <string name="pie_gravity_left">左側</string>
+    <string name="pie_gravity_bottom">頁尾</string>
+    <string name="pie_gravity_right">右邊</string>
+    <string name="pie_gravity_left">左邊</string>
     <!-- Breathing Notifications -->
     <string name="breathing_notifications_category">呼吸效果通知</string>
     <string name="missed_call_breath_title">未接來電</string>
@@ -935,7 +935,7 @@
     <string name="screenshot_type_partial">使用音量鍵擷取螢幕畫面後可以使用選取工具裁剪</string>
     <!-- Screenshot delay  -->
     <string name="screenshot_delay_title">螢幕擷取畫面延遲</string>
-    <string name="screenshot_delay_summary">Amount of time you need to hold power and volume buttons to take screenshot</string>
+    <string name="screenshot_delay_summary">觸發螢幕截圖按住電源鍵與音量鍵所需的時間</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">螢幕擷取畫面選項</string>
     <string name="screenshot_edit_app">螢幕擷取畫面編輯器</string>
@@ -1572,7 +1572,7 @@
     <string name="ota_crdroid_title">更新</string>
     <string name="ota_crdroid_summary">檢查並下載最新的更新</string>
     <!-- Categories -->
-    <string name="ota_category">OTA</string>
+    <string name="ota_category">OTA 更新</string>
     <string name="links_category">連結</string>
     <!-- ROM info -->
     <string name="latest_version">最新版本：%1$s</string>
@@ -1696,7 +1696,7 @@
     <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼／密碼時自動解鎖</string>
     <string name="background_processes_settings_title">背景處理程序</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Play商店</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">螢幕關閉動畫</string>
     <string name="screen_off_animation_fade">簡單淡出</string>
@@ -2198,27 +2198,59 @@
     <string name="fod_icon_picker_footer">若希望新增自己的圖示，請選擇最左上方的圖示，然後使用 OnePlus 6T FP Customizer 應用程式設定您的圖示。</string>
     <string name="fod_wallpaper_color">為指紋圖示套用目前桌布的顏色</string>
     <string name="fod_wallpaper_color_summary">使用經過調整的桌布顏色作為指紋圖標的顏色\n注意：可能只適合某些桌布</string>
-    <string name="fod_recog_animation">螢幕指紋辨識動畫</string>
-    <string name="fod_recog_animation_summary">在辨識您的指紋時顯示動畫</string>
-    <string name="fod_recog_animation_effect_title">螢幕指紋辨識動畫效果</string>
-    <!-- QS background opacity -->
-    <string name="qs_panel_alpha_title">背景透明度</string>
+    <!-- QS panel background opacity -->
+    <string name="qs_panel_alpha_title">快速設置面板不透明度</string>
+    <!-- QS panel gradient below status bar -->
+    <string name="qs_panel_gradient_title">狀態列漸變效果</string>
+    <string name="qs_panel_gradient_summary">在快捷設置面板中顯示狀態列下方漸變</string>
+    <!-- QS status bar background opacity -->
+    <string name="qs_sb_bg_alpha_title">狀態列不透明度</string>
     <!-- Navigation mode settings -->
     <string name="back_height_low_label">完整</string>
     <string name="back_height_high_label">底部</string>
     <string name="back_options_dialog_title">設定</string>
     <string name="back_height_message">可觸發返回手勢的螢幕高度範圍</string>
     <string name="back_gesture_haptic">啟用返回手勢的點震動效果</string>
-    <!-- FOD pressed state behavior -->
-    <string name="fod_pressed_state_title">螢幕指紋按壓狀態行為</string>
-    <string name="fod_pressed_state_footer">圖示／顏色可能會因所使用的裝置而異。</string>
-    <string name="fod_pressed_state_icon">圖示（通常為青色）</string>
-    <string name="fod_pressed_state_icon_white">圖示（白色）</string>
-    <string name="fod_pressed_state_solid_color">純色（通常為綠色）</string>
+    <!-- FOD pressed color -->
+    <string name="fod_pressed_color_title">按下指紋顏色</string>
+    <string name="fod_pressed_color_footer">圖示／顏色可能會因所使用的裝置而異。</string>
+    <string name="fod_pressed_color_white">白色</string>
+    <string name="fod_pressed_color_cyan">青色</string>
+    <string name="fod_pressed_color_green">綠色</string>
+    <string name="fod_pressed_color_yellow">黃色</string>
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">指紋辨識動畫</string>
+    <string name="fod_recog_animation_summary">讀取指紋時顯示動畫</string>
+    <string name="fod_recog_animation_effect_title">指紋識別動畫效果</string>
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Ripple</string>
+    <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">使用全螢幕手勢時隱藏導覽列按鈕</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">使用返回手勢時顯示一個箭頭動畫</string>
+    <string name="back_gesture_arrow_summary">使用返回手勢時顯示一個箭頭動畫</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">平台</string>
@@ -2304,8 +2336,8 @@
     <!-- Navbar styles -->
     <string name="navbar_style_title">導覽列樣式</string>
     <string name="navbar_default">預設</string>
-    <string name="navbar_asus">ASUS</string>
-    <string name="navbar_oneplus">OnePlus</string>
+    <string name="navbar_asus">華碩</string>
+    <string name="navbar_oneplus">一加</string>
     <string name="navbar_oneui">One UI</string>
     <string name="navbar_tecno">Tecno Camon</string>
     <!-- App lock -->
@@ -2323,4 +2355,10 @@
     <plurals name="applock_summary">
         <item quantity="other">%d 個應用程式已被鎖定</item>
     </plurals>
+    <!-- Navbar length -->
+    <string name="navbar_length">手勢列長度</string>
+    <string name="hidden_label">隱藏</string>
+    <string name="long_label">長</string>
+    <!-- Additional version details -->
+    <string name="about_device_name">裝置</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2020 crDroid Android Project
+     Copyright (C) 2016-2021 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -43,13 +43,13 @@
     <string name="set">Setel</string>
     <string name="color_default">Bawaan</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
+    <string name="ok">Oke</string>
     <string name="reset">Atur Ulang</string>
     <string name="cancel">Batal</string>
     <string name="save">Simpan</string>
     <!-- Misc strings -->
     <string name="lockclock_title">Widget jam</string>
-    <string name="lockclock_summary">Lihat atau ubah bagaimana widget \'jam\' akan ditampilkan.</string>
+    <string name="lockclock_summary">Lihat atau ubah bagaimana widget \"jam\" akan ditampilkan.</string>
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Pengamat lalu lintas jaringan</string>
     <string name="network_traffic_settings_summary">Tampilan dan kustomisasi tingkatan arus lalu lintas jaringan</string>
@@ -94,8 +94,8 @@
     <string name="recents_default_category">AOSP</string>
     <string name="recents_omni_category">OmniSwitch</string>
     <!-- AOSP Recents -->
-    <string name="aosp_first_time_title">AOSP terbaru</string>
-    <string name="aosp_first_time_message">Pengaturan pengalaman mendalam terbaru ditimpa jika perluasan desktop diaktifkan.</string>
+    <string name="aosp_first_time_title">Tampilan Terkini AOSP</string>
+    <string name="aosp_first_time_message">Pengaturan imersif terbaru diganti jika desktop yang diperluas diaktifkan.</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Sembunyikan Aplikasi Dari Daftar Terkini</string>
     <string name="hide_apps_from_recents_summary">Sembunyikan aplikasi untuk ditampilkan di daftar terkini</string>
@@ -103,11 +103,11 @@
     <string name="hide_from_recents_picker_title">Otomatis sembunyikan untuk aplikasi ini</string>
     <string name="hide_from_recents_picker_summary">Aplikasi ini otomatis disembunyikan dari daftar terkini ketika dibuka lain waktu</string>
     <!-- OmniSwitch Recents -->
-    <string name="recents_use_omniswitch_title">Penggunaan untuk recents</string>
-    <string name="recents_use_omniswitch_summary">Gunakan OmniSwitch sebagai pengganti tampilan awal terbaru</string>
+    <string name="recents_use_omniswitch_title">Gunakan untuk daftar terkini</string>
+    <string name="recents_use_omniswitch_summary">Gunakan OmniSwitch sebagai pengganti tampilan aplikasi terkini bawaan</string>
     <string name="omniswitch_start_settings_title">Pengaturan</string>
     <string name="omniswitch_start_settings_summary">Lihat pengaturan untuk OmniSwitch</string>
-    <string name="omniswitch_first_time_title">OmniSwitch berhenti</string>
+    <string name="omniswitch_first_time_title">Tampilan terkini OmniSwitch</string>
     <string name="omniswitch_first_time_message">Pastikan Anda telah mengaktifkan OmniSwitch dengan membuka pengaturan OmniSwitch.</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_shortcuts_category">Pintasan</string>
@@ -129,29 +129,29 @@
     <string name="shortcut_action_select_action">Pilih tindakan:</string>
     <string name="shortcut_action_select_action_newaction">Pilih tindakan baru:</string>
     <string name="shortcut_action_reset">Atur ulang</string>
-    <string name="shortcut_action_add">Tambahkan</string>
+    <string name="shortcut_action_add">Tambah</string>
     <string name="shortcut_action_reset_message">Atur ulang semua entri ke semula?</string>
-    <string name="shortcut_action_max">Ukuran entri maksimum telah tercapai</string>
+    <string name="shortcut_action_max">Ukuran maksimum entri telah tercapai</string>
     <string name="shortcut_action_warning">Peringatan</string>
     <string name="shortcut_action_warning_message">Tidak memungkinkan untuk menghapus entri terakhir</string>
     <string name="shortcut_action_disable_message">Dimatikan\nTambah sebuah entri untuk mengaktifkan fitur ini</string>
-    <string name="shortcut_image_not_valid">Aplikasi yang dipilih tidak memiliki ikon yang valid atau tidak mendukung pemotongan gambar. Silahkan gunakan aplikasi yang lain.</string>
+    <string name="shortcut_image_not_valid">Aplikasi yang dipilih tidak memiliki ikon yang valid atau tidak mendukung pemotongan gambar. Silakan gunakan aplikasi yang lain.</string>
     <string name="shortcut_duplicate_entry">Tindakan yang dipilih tidak dapat ditambahkan dua kali</string>
     <string name="shortcut_action_help_shortcut">pintasan</string>
     <string name="shortcut_action_help_button">tombol</string>
     <string name="shortcut_action_help_app">aplikasi</string>
-    <string name="shortcut_action_help_icon">, sambil mengklik ikon akan menampilkan pilihan penyesuaian</string>
-    <string name="shortcut_action_help_main">Untuk menambahkan %1$s, pilih Tambah ikon. Setelah %1$s ditambahkan, pilih baris yang akan mengubah target %2$s\n\nUntuk menghapus %1$s, geser baris secara lurus ke kiri ataupun ke kanan. Susun ulang %1$s pada daftar dengan cara menyeret secara vertikal panah yang ada di sebelah kiri.\n\nUntuk menghapus atau mengembalikan ke bawaan, pilih Atur ulang ikon.</string>
-    <string name="shortcut_action_help_delete_last_entry">Menghilangkan seluruh %1$s pada daftar akan mematikan seluruh fitur.</string>
-    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Menghilangkan seluruh %1$s pada daftar akan mematikan seluruh lapisan pie kedua.</string>
+    <string name="shortcut_action_help_icon">, saat memilih ikon akan memunculkan pilihan kustomisasi</string>
+    <string name="shortcut_action_help_main">Untuk menambahkan %1$s, pilih ikon Tambah. Setelah %1$s ditambahkan, memilih baris akan mengubah target %2$s\n\n Untuk menghapus %1$s, usap baris secara horisontal ke kiri atau ke kanan. Susun ulang %1$s dalam daftar dengan menyeret jangkar secara vertikal di sebelah kiri.\n\n Untuk menghapus atau mengembalikan ke standar, pilih ikon Setel Ulang.</string>
+    <string name="shortcut_action_help_delete_last_entry">Menghapus setiap %1$s dalam daftar akan menonaktifkan fitur seluruhnya.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Menghapus seluruh %1$s dalam daftar akan menonaktifkan keseluruhan lapisan pie kedua.</string>
     <string name="shortcuts_applications">Aplikasi</string>
-    <string name="shortcuts_select_custom_app_title">Pilih aplikasi kostum</string>
+    <string name="shortcuts_select_custom_app_title">Pilih aplikasi kustom</string>
     <string name="shortcuts_icon_picker_type">Pilih jenis ikon:</string>
     <string name="shortcuts_icon_default">Bawaan</string>
     <string name="shortcuts_icon_presets">Ikon sistem</string>
     <string name="shortcuts_icon_custom">Galeri</string>
     <string name="shortcuts_icon_picker_choose_icon_title">Pilih ikon</string>
-    <string name="shortcuts_icon_picker_alarm">Alarm</string>
+    <string name="shortcuts_icon_picker_alarm">Alaram</string>
     <string name="shortcuts_icon_picker_andy">Andy</string>
     <string name="shortcuts_icon_picker_battery">Baterai</string>
     <string name="shortcuts_icon_picker_browser">Peramban</string>
@@ -159,26 +159,26 @@
     <string name="shortcuts_icon_picker_camera">Kamera</string>
     <string name="shortcuts_icon_picker_cloud">Awan</string>
     <string name="shortcuts_icon_picker_contact">Kontak</string>
-    <string name="shortcuts_icon_picker_directdial">Panggilan langsung</string>
-    <string name="shortcuts_icon_picker_directmessage">Pesan langsung</string>
+    <string name="shortcuts_icon_picker_directdial">Panggilan Langsung</string>
+    <string name="shortcuts_icon_picker_directmessage">Pesan Pribadi</string>
     <string name="shortcuts_icon_picker_drive">Drive</string>
     <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
-    <string name="shortcuts_icon_picker_email">Email</string>
-    <string name="shortcuts_icon_picker_email2">Email alternatif</string>
+    <string name="shortcuts_icon_picker_email">Surel</string>
+    <string name="shortcuts_icon_picker_email2">Alternatif Surel</string>
     <string name="shortcuts_icon_picker_evernote">Evernote</string>
     <string name="shortcuts_icon_picker_facebook">Facebook</string>
     <string name="shortcuts_icon_picker_favorite">Favorit</string>
-    <string name="shortcuts_icon_picker_file_browser">Penjelajah berkas</string>
-    <string name="shortcuts_icon_picker_file_browser2">File Browser Alternatif</string>
+    <string name="shortcuts_icon_picker_file_browser">Penjelajah Berkas</string>
+    <string name="shortcuts_icon_picker_file_browser2">Penjelajah Berkas Alternatif</string>
     <string name="shortcuts_icon_picker_fitness">Kebugaran</string>
     <string name="shortcuts_icon_picker_gallery">Galeri</string>
-    <string name="shortcuts_icon_picker_gears">Gears</string>
+    <string name="shortcuts_icon_picker_gears">Roda gigi</string>
     <string name="shortcuts_icon_picker_google_small">Google</string>
     <string name="shortcuts_icon_picker_gplus">Google Plus</string>
     <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
     <string name="shortcuts_icon_picker_help">Bantuan</string>
     <string name="shortcuts_icon_picker_joystick">Joystick</string>
-    <string name="shortcuts_icon_picker_key">Kunci/akun</string>
+    <string name="shortcuts_icon_picker_key">Kunci/Akun</string>
     <string name="shortcuts_icon_picker_laptop">Laptop</string>
     <string name="shortcuts_icon_picker_notes">Catatan</string>
     <string name="shortcuts_icon_picker_luggage">Perjalanan</string>
@@ -193,22 +193,22 @@
     <string name="shortcuts_icon_picker_play">Putar</string>
     <string name="shortcuts_icon_picker_pocket">Saku</string>
     <string name="shortcuts_icon_picker_quicksettings">Setelan Cepat</string>
-    <string name="shortcuts_icon_picker_rss">RSS Feed</string>
+    <string name="shortcuts_icon_picker_rss">Umpan RSS</string>
     <string name="shortcuts_icon_picker_sdcard">Kartu SD</string>
     <string name="shortcuts_icon_picker_search">Pencarian</string>
     <string name="shortcuts_icon_picker_sms">Pesan</string>
     <string name="shortcuts_icon_picker_tasks">Tugas</string>
-    <string name="shortcuts_icon_picker_terminal">Terminal emulator</string>
+    <string name="shortcuts_icon_picker_terminal">Terminal</string>
     <string name="shortcuts_icon_picker_transit">Transit</string>
     <string name="shortcuts_icon_picker_tv">TV</string>
     <string name="shortcuts_icon_picker_twitter">Twitter</string>
     <string name="shortcuts_icon_picker_unlock">Buka kunci</string>
-    <string name="airplay">Diputar</string>
+    <string name="airplay">Airplay</string>
     <string name="android">Android</string>
     <string name="badoo">Badoo</string>
     <string name="battery">Baterai</string>
     <string name="bluetooth">Bluetooth</string>
-    <string name="bookmarks">Penanda</string>
+    <string name="bookmarks">Markah</string>
     <string name="browser">Peramban</string>
     <string name="browser2">Peramban2</string>
     <string name="calculator">Kalkulator</string>
@@ -220,22 +220,22 @@
     <string name="cnn">CNN</string>
     <string name="deezer2">Deezer2</string>
     <string name="deezer">Deezer</string>
-    <string name="dolphin2">Lumba-lumba</string>
+    <string name="dolphin2">Dolphin</string>
     <string name="downloads">Unduhan</string>
-    <string name="dropbox">Kotak drop</string>
+    <string name="dropbox">Dropbox</string>
     <string name="ebay">Ebay</string>
     <string name="email">Surel</string>
     <string name="evernote">Evernote</string>
     <string name="explorer">Penjelajah</string>
-    <string name="falcon">Elang</string>
+    <string name="falcon">Falcon</string>
     <string name="fb">Facebook</string>
-    <string name="flipboard">Papan putar</string>
-    <string name="foursquare">Empat persegi</string>
+    <string name="flipboard">Flipboard</string>
+    <string name="foursquare">Foursquare</string>
     <string name="firefox">Firefox</string>
-    <string name="googlebuzz">Penyampai google</string>
-    <string name="googledocs">Dokumen Google</string>
-    <string name="googlewallet">Dompet Google</string>
-    <string name="line">Garis</string>
+    <string name="googlebuzz">Google buzz</string>
+    <string name="googledocs">Google Dokumen</string>
+    <string name="googlewallet">Google wallet</string>
+    <string name="line">Line</string>
     <string name="mic">Mikrofon</string>
     <string name="newyorktimes">New York Times</string>
     <string name="rootexplorer">Root Explorer</string>
@@ -244,14 +244,14 @@
     <string name="totalcommander">Total Commander</string>
     <string name="weather">Cuaca</string>
     <string name="golocker">Go Locker</string>
-    <string name="googlecurrents">Google Currents</string>
+    <string name="googlecurrents">Arus Google</string>
     <string name="googletalk">Google Talk</string>
-    <string name="gosms">Pergi ke pesan singkat</string>
+    <string name="gosms">Go sms</string>
     <string name="meebo">Meebo</string>
     <string name="maps2">Peta2</string>
-    <string name="memorycleaner">Memory Cleaner</string>
+    <string name="memorycleaner">Pembersih memori</string>
     <string name="navigation">Navigasi</string>
-    <string name="pulse">Denyut</string>
+    <string name="pulse">Pulse</string>
     <string name="shazam">Shazam</string>
     <string name="swiftkey">Swiftkey</string>
     <string name="tmobile">Tmobile</string>
@@ -259,10 +259,10 @@
     <string name="games">Permainan</string>
     <string name="gmail">GMail</string>
     <string name="docs">Dokumen</string>
-    <string name="googledrive">Penyimpanan Google</string>
+    <string name="googledrive">Google Drive</string>
     <string name="googleearth">Google Earth</string>
     <string name="googlehangouts">Google Hangouts</string>
-    <string name="googlekeep">Google keep</string>
+    <string name="googlekeep">Google Keep</string>
     <string name="googleplay">Google Play</string>
     <string name="googletranslate">Google Terjemahan</string>
     <string name="google">Google</string>
@@ -273,18 +273,18 @@
     <string name="maps">Peta</string>
     <string name="messages">Pesan</string>
     <string name="music">Musik</string>
-    <string name="mxplayer">Mxplayer</string>
-    <string name="notepad">Pesan langsung</string>
+    <string name="mxplayer">MXPlayer</string>
+    <string name="notepad">Pesan Pribadi</string>
     <string name="opera">Opera</string>
-    <string name="paint">Melukis</string>
+    <string name="paint">Paint</string>
     <string name="paypal">PayPal</string>
-    <string name="phone">Telepon</string>
+    <string name="phone">Ponsel</string>
     <string name="picasa">Picasa</string>
     <string name="pictures2">Gambar2</string>
-    <string name="player_pro">Pemutar pro</string>
-    <string name="playstation">Pusat bermain</string>
+    <string name="player_pro">Player Pro</string>
+    <string name="playstation">Playstation</string>
     <string name="reddit">Reddit</string>
-    <string name="settings">Pengaturan</string>
+    <string name="settings">Setelan</string>
     <string name="skype">Skype</string>
     <string name="soundscloud">Soundscloud</string>
     <string name="spotifiy">Spotify</string>
@@ -294,27 +294,27 @@
     <string name="viber">Viber</string>
     <string name="videocamera">Kamera video</string>
     <string name="whatsapp">Whatsapp</string>
-    <string name="wifi">Wifi</string>
+    <string name="wifi">WiFi</string>
     <string name="xda">XDA</string>
-    <string name="yahoo">Yahoo!</string>
-    <string name="youtube">Youtube</string>
+    <string name="yahoo">Yahoo</string>
+    <string name="youtube">YouTube</string>
     <string name="zedge">Zedge</string>
     <string name="shortcut_action_none">Tidak ada</string>
     <string name="shortcut_action_app">Kustom aplikasi</string>
     <string name="shortcut_action_home">Beranda</string>
     <string name="shortcut_action_back">Kembali</string>
     <string name="shortcut_action_menu">Menu</string>
-    <string name="shortcut_action_ime">Buka IME Switcher</string>
-    <string name="shortcut_action_power_menu">Menu power</string>
-    <string name="shortcut_action_recent">Terbaru</string>
+    <string name="shortcut_action_ime">Buka Pengganti IME</string>
+    <string name="shortcut_action_power_menu">Menu daya</string>
+    <string name="shortcut_action_recent">Baru-baru ini</string>
     <string name="shortcut_action_power">Layar Mati</string>
     <string name="shortcut_action_search">Cari di aplikasi</string>
     <string name="shortcut_action_ring_vib">Dering/Getar</string>
-    <string name="shortcut_action_ring_silent">Dering/Diam</string>
-    <string name="shortcut_action_ring_vib_silent">Dering/Getar/Diam</string>
+    <string name="shortcut_action_ring_silent">Dering/Senyap</string>
+    <string name="shortcut_action_ring_vib_silent">Dering/Getar/Senyap</string>
     <string name="shortcut_action_camera">Kamera</string>
     <string name="shortcut_action_media_next">Musik - lagu berikutnya</string>
-    <string name="shortcut_action_media_play_pause">Musik - main/jeda</string>
+    <string name="shortcut_action_media_play_pause">Musik - putar/jeda</string>
     <string name="shortcut_action_media_previous">Musik - trek sebelumnya</string>
     <string name="shortcut_action_wake_device">Bangunkan perangkat</string>
     <string name="shortcut_picker_choose_longpress_action">Pilih tindakan tekan lama:</string>
@@ -376,8 +376,8 @@
     <string name="volume_steps_7">7</string>
     <string name="volume_steps_5">5</string>
     <!-- SU indicator -->
-    <string name="show_su_indicator_title">Ikon Pengguna super</string>
-    <string name="show_su_indicator_summary">Tampilan ikon pengguna Super saat menggunakan root asli</string>
+    <string name="show_su_indicator_title">Ikon Pengguna Super</string>
+    <string name="show_su_indicator_summary">Tampilan ikon Pengguna Super saat menggunakan root asli</string>
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Jalankan Aplikasi Musik</string>
     <string name="headset_connect_player_summary">Jalankan pemutar musik standar saat heatset terhubung</string>
@@ -436,9 +436,9 @@
     <string name="status_bar_misc_category_title">Lain-lain</string>
     <!-- Statusbar crDroid logo -->
     <string name="status_bar_crdroid_logo_title">Tampilkan Logo</string>
-    <string name="status_bar_crdroid_logo_summary">Aktifkan untuk menampilkan logo di status bar</string>
-    <string name="status_bar_crdroid_logo_color">Warna logo</string>
-    <string name="status_bar_crdroid_logo_position">Posisi logo</string>
+    <string name="status_bar_crdroid_logo_summary">Hidupkan untuk menampilkan logo di bilah status</string>
+    <string name="status_bar_crdroid_logo_color">Warna Logo</string>
+    <string name="status_bar_crdroid_logo_position">Posisi Logo</string>
     <string name="status_bar_crdroid_logo_position_summary">Pilih sisi mana untuk menampilkan logo, kiri atau kanan</string>
     <string name="status_bar_crdroid_logo_style">Gaya logo</string>
     <string name="status_bar_logo_position_right">Kanan</string>
@@ -448,14 +448,14 @@
     <string name="status_bar_logo_style_apple">Apple</string>
     <string name="status_bar_logo_style_ios">iOS</string>
     <string name="status_bar_logo_style_emoticon">Emotikon</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticon keren</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emotikon keren</string>
     <string name="status_bar_logo_style_emoticon_dead">Emoticon mati</string>
     <string name="status_bar_logo_style_emoticon_devil">Emoticon iblis</string>
-    <string name="status_bar_logo_style_emoticon_happy">Emoticon senang</string>
-    <string name="status_bar_logo_style_emoticon_neutral">Emoticon netral</string>
-    <string name="status_bar_logo_style_emoticon_poop">Kotoran emoticon</string>
-    <string name="status_bar_logo_style_emoticon_sad">Emoticon sedih</string>
-    <string name="status_bar_logo_style_emoticon_tongue">Lidah emoticon</string>
+    <string name="status_bar_logo_style_emoticon_happy">Emotikon senang</string>
+    <string name="status_bar_logo_style_emoticon_neutral">Emotikon netral</string>
+    <string name="status_bar_logo_style_emoticon_poop">Emotikon kotoran</string>
+    <string name="status_bar_logo_style_emoticon_sad">Emotikon sedih</string>
+    <string name="status_bar_logo_style_emoticon_tongue">Emotikon menjilat</string>
     <string name="status_bar_logo_style_blackberry">Blackberry</string>
     <string name="status_bar_logo_style_cake">Kue</string>
     <string name="status_bar_logo_style_blogger">Blogger</string>
@@ -465,11 +465,11 @@
     <string name="status_bar_logo_style_windows">Windows</string>
     <string name="status_bar_logo_style_robot">Robot</string>
     <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_heart">Jantung</string>
+    <string name="status_bar_logo_style_heart">Hati</string>
     <string name="status_bar_logo_style_flower">Bunga</string>
     <string name="status_bar_logo_style_ghost">Hantu</string>
     <string name="status_bar_logo_style_google">Google</string>
-    <string name="status_bar_logo_style_human_male">Manusia</string>
+    <string name="status_bar_logo_style_human_male">Pria</string>
     <string name="status_bar_logo_style_human_female">Wanita</string>
     <string name="status_bar_logo_style_human_male_female">Pria &amp; wanita</string>
     <string name="status_bar_logo_style_gender_male">Pria</string>
@@ -480,9 +480,9 @@
     <string name="status_bar_logo_style_deadpool">Deadpool</string>
     <string name="status_bar_logo_style_decepticons">Decepticons</string>
     <string name="status_bar_logo_style_ironman">Ironman</string>
-    <string name="status_bar_logo_style_minions">Minions</string>
-    <string name="status_bar_logo_style_spiderman">Manusia laba-laba</string>
-    <string name="status_bar_logo_style_superman">Manusia super</string>
+    <string name="status_bar_logo_style_minions">Minion</string>
+    <string name="status_bar_logo_style_spiderman">Spiderman</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
     <!-- Expanded Desktop -->
     <string name="expanded_desktop_title">Diperluas desktop</string>
     <string name="expanded_desktop_summary">Perluas ruang desktop Anda yang tersedia dengan menyembunyikan status bar, panel navigasi, atau keduanya</string>
@@ -565,73 +565,73 @@
     <string name="action_entry_custom_action">Pilih aksi pengaturan sendiri</string>
     <!-- Fling -->
     <string name="fling_settings">Pengaturan fling</string>
-    <string name="fling_settings_summary">Menyesuaikan melemparkan gerakan</string>
-    <string name="fling_interface">Melemparkan</string>
-    <string name="fling_enable_title">Mengaktifkan Melemparkan</string>
+    <string name="fling_settings_summary">Menyesuaikan gestur fling</string>
+    <string name="fling_interface">Fling</string>
+    <string name="fling_enable_title">Aktifkan Fling</string>
     <string name="fling_back_home_policy">Kembali dan Beranda diwajibkan untuk diatur setiap saat. Untuk mengubah penugasan Kembali atau Beranda, atur penugasan yang diinginkan terlebih dahulu</string>
-    <string name="fling_split_bar_policy">Hanya ketika tindakan kanan atau kiri ditetapkan, tindakan diberlakukan untuk keseluruhan bilah</string>
-    <string name="fling_def_summary">Tidak ada pengaturan tindakan</string>
-    <string name="fling_swipe_actions">Gerakan usap</string>
-    <string name="fling_tap_actions">Gerakan ketuk</string>
-    <string name="fling_short_swipe_right">Gesekan kanan pendek</string>
-    <string name="fling_short_swipe_left">Gesekan kiri pendek</string>
-    <string name="fling_long_swipe_right">Gesekan panjang kanan</string>
-    <string name="fling_long_swipe_left">Gesekan kiri panjang</string>
-    <string name="fling_right_up_swipe">Gesekan sisi kanan atas</string>
-    <string name="fling_left_up_swipe">Gesekan sisii kiri atas</string>
-    <string name="fling_single_tap">Ketukan tunggal kanan</string>
+    <string name="fling_split_bar_policy">Ketika tindakan yang ditetapkan hanya kanan atau kiri, tindakan berlaku untuk seluruh bar</string>
+    <string name="fling_def_summary">Tidak ada tindakan disetel</string>
+    <string name="fling_swipe_actions">Gestur usap</string>
+    <string name="fling_tap_actions">Gestur ketukan</string>
+    <string name="fling_short_swipe_right">Usap pendek kanan</string>
+    <string name="fling_short_swipe_left">Usap pendek kiri</string>
+    <string name="fling_long_swipe_right">Usap panjang kanan</string>
+    <string name="fling_long_swipe_left">Usap panjang kiri</string>
+    <string name="fling_right_up_swipe">Usap ke atas sebalah kanan</string>
+    <string name="fling_left_up_swipe">Usap ke atas sebelah kiri</string>
+    <string name="fling_single_tap">Ketukan sekali di kanan</string>
     <string name="fling_double_tap">Ketukan ganda kanan</string>
     <string name="fling_long_press">Tekan lama kanan</string>
-    <string name="fling_single_left_tap">Ketukan tunggal kiri</string>
+    <string name="fling_single_left_tap">Ketuk sekali kiri</string>
     <string name="fling_double_left_tap">Ketukan ganda kiri</string>
-    <string name="fling_long_left_press">Tekan panjang kiri</string>
+    <string name="fling_long_left_press">Tekan lama kiri</string>
     <string name="long_swipe_portrait_title">Potret</string>
-    <string name="long_swipe_landscape_title">Lansekap</string>
-    <string name="portrait_right_swipe_title">Gesekan potret kanan</string>
-    <string name="portrait_left_swipe_title">Gesekan potret kiri</string>
-    <string name="landscape_right_swipe_title">Gesekan potret kanan</string>
-    <string name="landscape_left_swipe_title">Gesekan lansekap kiri</string>
-    <string name="vertical_up_swipe_title">Gesek atas vertikal</string>
-    <string name="vertical_down_swipe_title">Gesek bawah vertikal</string>
-    <string name="up_swipe_title">Geser ke atas</string>
-    <string name="down_swipe_title">Menggesek ke bawah</string>
-    <string name="long_swipe_reset">Setel ulang</string>
+    <string name="long_swipe_landscape_title">Lanskap</string>
+    <string name="portrait_right_swipe_title">Portrait right swipe</string>
+    <string name="portrait_left_swipe_title">Portrait left swipe</string>
+    <string name="landscape_right_swipe_title">Landscape right swipe</string>
+    <string name="landscape_left_swipe_title">Landscape left swipe</string>
+    <string name="vertical_up_swipe_title">Vertical up swipe</string>
+    <string name="vertical_down_swipe_title">Vertical down swipe</string>
+    <string name="up_swipe_title">Up swipe</string>
+    <string name="down_swipe_title">Down swipe</string>
+    <string name="long_swipe_reset">Atur ulang</string>
     <string name="fling_advanced">Lanjutan</string>
-    <string name="fling_long_swipe_title">Panjang geser batas</string>
-    <string name="fling_long_swipe_summary">Mengayunkan melodi bagus yang lama diambang batas berdasarkan persentase dari melemparkan antarmuka lebar atau tinggi</string>
-    <string name="fling_trails_enable_title">Mengaktifkan jejak langkah</string>
-    <string name="fling_trails_enable_summary">Menunjukkan jejak pada gerakan yang diayunkan</string>
+    <string name="fling_long_swipe_title">Ambang batas usap panjang</string>
+    <string name="fling_long_swipe_summary">Sesuaikan batas usapan panjang berdasarkan persentase lebar atau tinggi antarmuka Fling</string>
+    <string name="fling_trails_enable_title">Aktifkan jejak gerakan</string>
+    <string name="fling_trails_enable_summary">Tampilkan jejak pada gerakan usap</string>
     <string name="fling_trails_color_title">Warna jejak</string>
     <string name="fling_trails_width_title">Lebar jejak</string>
-    <string name="fling_appearance">Penampilan</string>
-    <string name="fling_show_logo_title">Tampilkan Melemparkan logo</string>
+    <string name="fling_appearance">Tampilan</string>
+    <string name="fling_show_logo_title">Tampilkan logo Fling</string>
     <string name="fling_animate_logo_title">Animasi logo</string>
-    <string name="fling_animate_logo_summary">Sentuh lambang yang menjiwai pada peristiwa</string>
-    <string name="fling_logo_color">Warna lambang</string>
-    <string name="fling_logo_custom_logo_pick_title">Logo kustom ikon</string>
-    <string name="fling_logo_custom_logo_image_pick_title">Gambar logo kustom</string>
+    <string name="fling_animate_logo_summary">Animasi logo saat disentuh</string>
+    <string name="fling_logo_color">Warna Logo</string>
+    <string name="fling_logo_custom_logo_pick_title">Logo Kustom ikon</string>
+    <string name="fling_logo_custom_logo_image_pick_title">Kustom logo gambar</string>
     <string name="fling_logo_custom_logo_reset_title">Setel ulang ikon logo</string>
-    <string name="fling_show_ripple_title">Menunjukkan riak</string>
-    <string name="fling_show_ripple_summary">Efek riak pada peristiwa sentuh</string>
-    <string name="fling_ripple_color">Riak warna</string>
-    <string name="fling_longpress_timeout_label_left">Keterlambatan kurang</string>
-    <string name="fling_longpress_timeout_label_right">Penundaan lebih lanjut</string>
-    <string name="fling_longpress_title">Tekan lama menunda</string>
-    <string name="fling_longpress_summary">Menambah atau mengurangi waktu yang dibutuhkan tekan yang lama untuk mengeksekusi sebuah</string>
-    <string name="fling_keyboard_cursors_title">Dinamis keyboard kursor tindakan</string>
-    <string name="fling_keyboard_cursors_summary">Tekan dua kali kiri dan kanan menjadi tindakan kiri dan kanan tindakan kursor papan ketik jika papan ketik ini terbuka untuk</string>
-    <string name="fling_logo_opacity_title">Melemparkan logo opacity</string>
+    <string name="fling_show_ripple_title">Tampilkan riak</string>
+    <string name="fling_show_ripple_summary">Efek riak saat disentuh</string>
+    <string name="fling_ripple_color">Warna riak</string>
+    <string name="fling_longpress_timeout_label_left">Penundaan lebih sedikit</string>
+    <string name="fling_longpress_timeout_label_right">Penundaan lebih banyak</string>
+    <string name="fling_longpress_title">Penundaan tekan lama</string>
+    <string name="fling_longpress_summary">Meningkatkan atau mengurangi waktu yang dibutuhkan untuk melakukan tekan lama</string>
+    <string name="fling_keyboard_cursors_title">Tindakan kursor papan ketik dinamis</string>
+    <string name="fling_keyboard_cursors_summary">Tindakan ketuk dua kali kiri dan kanan akan menjadi tindakan tombol papan ketik kiri dan kanan jika papan ketik terbuka</string>
+    <string name="fling_logo_opacity_title">Transparansi logo fling</string>
     <string name="fling_factory_reset_title">Setel ulang ke bawaan</string>
-    <string name="fling_factory_reset_confirm">Apakah anda yakin ingin menyetel ulang Fling ke pengaturan bawaan?</string>
-    <string name="fling_backup_current_config_title">Simpan profile</string>
-    <string name="fling_restore_config_title">Pulihkan profile</string>
+    <string name="fling_factory_reset_confirm">Apakah Anda yakin ingin menyetel ulang Fling ke setelan bawaan?</string>
+    <string name="fling_backup_current_config_title">Simpan profil</string>
+    <string name="fling_restore_config_title">Pulihkan profil</string>
     <string name="fling_config_name_edit_dialog_title">Nama profil Fling</string>
     <string name="fling_config_name_edit_dialog_message">Masukkan nama atau biarkan kosong</string>
     <string name="fling_config_dialog_title">Profil Fling</string>
     <string name="fling_config_backup_success_toast">Profil Fling berhasil disimpan</string>
     <string name="fling_config_restore_success_toast">Profil Fling berhasil dipulihkan</string>
-    <string name="fling_config_backup_error_toast">Gagal menyimpan profil Fling</string>
-    <string name="fling_config_restore_error_toast">Gagal memulihkan profil Fling</string>
+    <string name="fling_config_backup_error_toast">Kesalahan saat menyimpan profil Fling</string>
+    <string name="fling_config_restore_error_toast">Kesalahan saat memulihkan profil Fling</string>
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">Tentang Pulsa</string>
     <string name="pulse_help_policy_notice_summary">Pulse adalah equalizer grafis audio yang brilian saat musik diputar di perangkat</string>
@@ -689,7 +689,7 @@
     <string name="navbar_layout_leftleaning">Evisiensi kiri</string>
     <string name="navbar_layout_rightleaning">Evisiensi kanan</string>
     <string name="navbar_invert_layout_title">Balikkan tata letak</string>
-    <string name="navbar_invert_layout_summary">Inverts the layout of the navigation bar and other items, such as the IME switcher</string>
+    <string name="navbar_invert_layout_summary">Tukar tata letak bilah navigasi dan item lainnya, seperti pengalih IME</string>
     <string name="navbar_tuner_title">Tuner navbar</string>
     <string name="navbar_tuner_summary">Kustomisasi tombol dan tata letak</string>
     <string name="navbar_arrow_keys_title">Tampilkan tombol panah saat mengetik</string>
@@ -868,9 +868,9 @@
     <string name="ticker_animation_mode_scroll">Gulir</string>
     <string name="ticker_tick_duration_title">Durasi ticker</string>
     <!-- Pie -->
-    <string name="pie_settings">Pengaturan pie</string>
-    <string name="pie_enable_title">Hidupkan pie</string>
-    <string name="pie_settings_summary">Menyesuaikan pie sesuai dengan keinginan anda</string>
+    <string name="pie_settings">Setelan Pie</string>
+    <string name="pie_enable_title">Hidupkan Pie</string>
+    <string name="pie_settings_summary">Menyesuaikan pie dengan keinginan Anda</string>
     <string name="pie_theme_mode_title">Tema</string>
     <string name="pie_auto">Otomatis</string>
     <string name="pie_white">Putih</string>
@@ -880,7 +880,7 @@
     <string name="pie_battery_circle">Hanya lingkaran</string>
     <string name="pie_battery_both">Keduanya</string>
     <string name="pie_status_indicator">Indikator jaringan</string>
-    <string name="pie_status_wifi">Hanya wifi</string>
+    <string name="pie_status_wifi">Hanya WiFi</string>
     <string name="pie_status_mobile">Hanya jaringan seluler</string>
     <string name="pie_status_none">Tidak ada</string>
     <string name="pie_status_both">Keduanya</string>
@@ -1036,7 +1036,7 @@
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Kami cinta open source, lihat kami</string>
     <string name="crdroid_google_plus_title">Google+</string>
-    <string name="crdroid_google_plus_summary">Bergabunglah dengan kami di G + untuk mendapatkan update dan dukungan cepat</string>
+    <string name="crdroid_google_plus_summary">Bergabunglah dengan kami di G+ untuk mendapatkan update dan dukungan cepat</string>
     <string name="crdroid_telegram_title">Telegram</string>
     <string name="crdroid_telegram_summary">Kami ada di Telegram. Ayo bergabung!</string>
     <string name="crdroid_website_title">Situs Web Resmi</string>
@@ -1044,9 +1044,9 @@
     <string name="crdroid_translate_title">Terjemahan</string>
     <string name="crdroid_translate_summary">Bantu kami menerjemahkan ROM ini ke bahasa anda!</string>
     <!-- Maintainers -->
-    <string name="maintainers_crdroid_title">Perangkat dan pengelola</string>
+    <string name="maintainers_crdroid_title">Perangkat dan Pengelola</string>
     <string name="maintainers_crdroid_summary">Daftar perangkat yang didukung dan pengelola resmi mereka</string>
-    <string name="maintainers_crdroid_error">Dapat memuat perangkat dan pengelola daftar</string>
+    <string name="maintainers_crdroid_error">Tidak dapat memuat daftar perangkat dan pengelola</string>
     <!-- Donate crDroid -->
     <string name="donate_crdroid_title">Dukungan kami</string>
     <string name="donate_crdroid_summary">Donasi untuk mendukung pengembangan dan server kami</string>
@@ -1520,7 +1520,7 @@
     <string name="lock_screen_weather_condition_icon_summary">Tampilkan kondisi gambar pada layar kunci</string>
     <string name="lock_screen_ambient_weather_title">Suhu lingkungan</string>
     <string name="lock_screen_ambient_weather_summary">Menampilkan cuaca pada lingkungan layar</string>
-    <string name="lock_screen_weather_style_title">Pixel style</string>
+    <string name="lock_screen_weather_style_title">Gaya Pixel</string>
     <string name="lock_screen_weather_style_summary">Tampilkan cuaca disamping tanggal daripada widget besar</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_vibrate_title">Getaran keaslian sidik jari</string>
@@ -1580,7 +1580,7 @@
     <string name="system_uptodate">Sistem kamu adalah terbaru</string>
     <string name="maintainer_title">Pengelola</string>
     <string name="maintainer_unknown">Tidak ada pengelola resmi</string>
-    <string name="changelog_title">Server changelog</string>
+    <string name="changelog_title">Perubahan server</string>
     <string name="changelog_summary">Lihat changelog dari pembaruan terakhir</string>
     <string name="download_title">Mengunduh buatan terakhir</string>
     <string name="download_summary">Mengunjungi halaman unduhan</string>
@@ -1731,9 +1731,9 @@
     <string name="full_screen_aspect_ratio_title">Aspek rasio layar penuh</string>
     <string name="full_screen_aspect_ratio_summary">Paksa aplikasi agar menggunakan aspek rasio layar penuh, perhatikan bahwa tidak semua aplikasi berjalan dengan baik di layar penuh</string>
     <!-- QS Brightness Slider -->
-    <string name="qs_brightness_slider_show_never">Never show</string>
-    <string name="qs_brightness_slider_show_expanded">Show when expanded</string>
-    <string name="qs_brightness_slider_show_always">Show always</string>
+    <string name="qs_brightness_slider_show_never">Jangan tampilkan</string>
+    <string name="qs_brightness_slider_show_expanded">Tampilkan ketika diperluas</string>
+    <string name="qs_brightness_slider_show_always">Tampilkan selalu</string>
     <!-- QS Brightness Slider position -->
     <string name="qs_brightness_slider_hide">Sembunyikan</string>
     <string name="qs_brightness_slider_top">Atas</string>
@@ -1993,7 +1993,7 @@
     <string name="switch_oneplus">OnePlus</string>
     <string name="switch_narrow">Sempit</string>
     <string name="switch_contained">Terkandung</string>
-    <string name="switch_retro">Retro</string>
+    <string name="switch_retro">Jadul</string>
     <string name="switch_stockish">Kekar</string>
     <string name="switch_telegram">Teelegram</string>
     <!-- Battery stats reset -->
@@ -2168,9 +2168,9 @@
     <string name="pulse_ambient_light_color_title">Warna sisi pencahayaan</string>
     <string name="pulse_ambient_light_duration_title">Durasi sisi pencahayaan</string>
     <string name="pulse_ambient_light_duration_summary">Set durasi animasi pencahayaan ambient</string>
-    <string name="pulse_ambient_light_layout_title">Edge light view</string>
-    <string name="pulse_ambient_light_layout_solid">Solid</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="pulse_ambient_light_layout_title">Tampilan Tepi Cahaya</string>
+    <string name="pulse_ambient_light_layout_solid">Padat</string>
+    <string name="pulse_ambient_light_layout_faded">Memudar</string>
     <!-- QS battery -->
     <string name="qs_battery_location_title">Lokasi baterai</string>
     <string name="qs_battery_location_qs_panel">Panel QS</string>
@@ -2198,27 +2198,59 @@
     <string name="fod_icon_picker_footer">Untuk menambahkan ikon Anda sendiri, pilih ikon kiri atas dan gunakan aplikasi OnePlus 6T FP Customizer untuk memilih ikon yang Anda inginkan.</string>
     <string name="fod_wallpaper_color">Gunakan warna wallpaper untuk ikon FOD</string>
     <string name="fod_wallpaper_color_summary">Menggunakan warna wallpaper utama yang disesuaikan untuk ikon FOD\nCATATAN: mungkin terlihat bagus hanya dengan beberapa latar belakang</string>
-    <string name="fod_recog_animation">Animasi pengenalan FOD</string>
-    <string name="fod_recog_animation_summary">Tampilkan animasi saat mengenali jari anda</string>
-    <string name="fod_recog_animation_effect_title">Efek animasi pengenalan FOD</string>
-    <!-- QS background opacity -->
-    <string name="qs_panel_alpha_title">Transparansi Latar Belakang</string>
+    <!-- QS panel background opacity -->
+    <string name="qs_panel_alpha_title">Opasitas panel</string>
+    <!-- QS panel gradient below status bar -->
+    <string name="qs_panel_gradient_title">Gradasi bilah status</string>
+    <string name="qs_panel_gradient_summary">Tampilkan gradasi di bawah bilah status di panel QS</string>
+    <!-- QS status bar background opacity -->
+    <string name="qs_sb_bg_alpha_title">Opasitas bilah status</string>
     <!-- Navigation mode settings -->
     <string name="back_height_low_label">Penuh</string>
     <string name="back_height_high_label">Bawah</string>
     <string name="back_options_dialog_title">Opsi</string>
     <string name="back_height_message">Jumlah ketinggian layar yang digunakan sebagai daerah yang dapat disentuh untuk gerakan belakang.</string>
     <string name="back_gesture_haptic">Aktifkan efek getaran pada tombol gerakan kembali</string>
-    <!-- FOD pressed state behavior -->
-    <string name="fod_pressed_state_title">Perilaku FOD dalam keadaan ditekan</string>
-    <string name="fod_pressed_state_footer">Ikon/warna tergantung pada perangkat yang Anda gunakan.</string>
-    <string name="fod_pressed_state_icon">Ikon (biasanya berwarna Cyan)</string>
-    <string name="fod_pressed_state_icon_white">Ikon (Putih)</string>
-    <string name="fod_pressed_state_solid_color">Warna kuat (biasanya berwarna Hijau)</string>
+    <!-- FOD pressed color -->
+    <string name="fod_pressed_color_title">Warna sidik jari ditekan</string>
+    <string name="fod_pressed_color_footer">Ikon/warna tergantung pada perangkat yang Anda gunakan.</string>
+    <string name="fod_pressed_color_white">Putih</string>
+    <string name="fod_pressed_color_cyan">Cyan</string>
+    <string name="fod_pressed_color_green">Hijau</string>
+    <string name="fod_pressed_color_yellow">Kuning</string>
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Animasi sidik jari</string>
+    <string name="fod_recog_animation_summary">Perlihatkan animasi saat jari Anda terdeteksi</string>
+    <string name="fod_recog_animation_effect_title">Pilih efek animasi sidik jari</string>
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Ripple</string>
+    <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">Sembunyikan bar pill navigasi untuk gerakan layar penuh yang mulus.</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Tampilkan animasi panah untuk gerakan kembali.</string>
+    <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gerakan kembali.</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -2276,8 +2308,8 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatur baterai</string>
     <!-- OOS style material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
-    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
+    <string name="notification_material_dismiss_button_title">Tombol hapus material</string>
+    <string name="notification_material_dismiss_button_summary">Ganti teks hapus semua notifikasi dengan tombol material</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Izinkan jaringan</string>
     <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
@@ -2324,4 +2356,10 @@
         <item quantity="other">1 aplikasi terkunci
 %d aplikasi terkunci</item>
     </plurals>
+    <!-- Navbar length -->
+    <string name="navbar_length">Panjang bilah gerakan</string>
+    <string name="hidden_label">Tersembunyi</string>
+    <string name="long_label">Panjang</string>
+    <!-- Additional version details -->
+    <string name="about_device_name">Perangkat</string>
 </resources>
